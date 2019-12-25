@@ -4,4 +4,5 @@ body {
   padding: 0;
   font-size: 18px;
   background: #1b1a1a;
+  box-sizing: border-box;
 }
