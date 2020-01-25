@@ -1,0 +1,118 @@
+.menu {
+  width: 20%;
+  background-color: #21252b;
+}
+
+.menu-tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: #282c34;
+  color: #969696;
+  font-size: 17px;
+  line-height: 20px;
+  margin: auto 0;
+  box-sizing: border-box;
+}
+
+.author a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  font-family: none;
+  text-decoration: none;
+  height: 23px;
+  padding: 9px 0 9px 60px;
+  cursor: pointer;
+  color: #cec4c4;
+}
+
+.btn h3 {
+  font-size: 20px;
+  font-weight: inherit;
+}
+
+.li:nth-child(1) {
+  padding: 3px 0 0 60px;
+}
+
+.active {
+  background-color: #373b42;
+  border-left: 3px solid rgba(232, 235, 76, 0.651);
+}
+
+.js::before,
+.html-css::before,
+.github::before,
+.r-js::before {
+  position: absolute;
+  left: 39px;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background-repeat: no-repeat;
+  background-size: 17px;
+}
+
+.js::before {
+  background-image: url("./img/js.png");
+}
+
+.html-css::before {
+  background-image: url("./img/html-css.png");
+}
+
+.github::before {
+  background-image: url("./img/github.png");
+}
+
+.r-js::before {
+  background-image: url("./img/React.png");
+}
+
+@media (max-width: 1350px) {
+  .menu {
+    width: 270px;
+  }
+}
+
+@media (max-width: 840px) {
+  .author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    padding: 0 0 0 25px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin: auto auto;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 760px) {
+  .menu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu {
+    width: 320px;
+  }
+}
