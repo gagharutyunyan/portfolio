@@ -1,0 +1,13 @@
+body {
+  font-family: "Lucida Console", monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  background: linear-gradient(
+    45deg,
+    rgb(6, 6, 6),
+    rgb(62, 59, 59),
+    rgb(6, 6, 6)
+  );
+  box-sizing: border-box;
+}
