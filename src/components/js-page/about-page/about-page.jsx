@@ -35,7 +35,7 @@ const AboutPage = ({ history }) => {
             <article className="resume">
               <section className="resume-header">
                 <div className="resume-header--title">
-                  <h1>Gagik Harutyunyan</h1>
+                  <h1>Gagik Harutyunyan </h1>
                   <h2>Frontend Developer</h2>
                 </div>
                 <div className="resume-header--contacts">

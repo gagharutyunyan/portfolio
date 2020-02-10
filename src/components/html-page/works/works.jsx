@@ -19,6 +19,31 @@ const Item = () => {
       url: "https://gagharutyunyan.github.io/to-do-react/",
       backgroundImageUrl:
         "https://raw.githubusercontent.com/gagharutyunyan/gagharutyunyan.github.io/master/to-do-react.gif"
+    },
+    {
+      title: "Very simple NodeJs app",
+      description:
+        "Simple app with adding new films used NodeJs, Express, Handlebars  ",
+      url: "https://github.com/gagharutyunyan/handlebars-demo-app",
+      backgroundImageUrl: "https://i.postimg.cc/kG5tdxv4/fdsfdsf.png"
+    },
+    {
+      title: "Responsive landing page",
+      description: "Responsive page (used Vue), router, validation. ",
+      url: "https://gagharutyunyan.github.io/vue-landing/",
+      backgroundImageUrl: "https://i.postimg.cc/tR2k6JKp/fewewfwef.png"
+    },
+    {
+      title: "Fixed profile page",
+      description: "Fixed page, used HTML, CSS, JS. ",
+      url: "https://gagharutyunyan.github.io/test-layot/",
+      backgroundImageUrl: "https://i.postimg.cc/0NPcTBF0/cdsafasfsd.png"
+    },
+    {
+      title: "To-do list",
+      description: "Simple responsive to-do list. LocaleStorage is working ",
+      url: "https://gagharutyunyan.github.io/to-do-js/",
+      backgroundImageUrl: "https://i.postimg.cc/hvZGB62z/fsafas.png"
     }
   ];
   return (
