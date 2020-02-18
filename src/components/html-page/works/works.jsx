@@ -21,6 +21,14 @@ const Item = () => {
         "https://raw.githubusercontent.com/gagharutyunyan/gagharutyunyan.github.io/master/to-do-react.gif"
     },
     {
+      title: "To-do on React + TypeScript",
+      description:
+        "To-do list used React + TypeScript, all the functions are working (add, delete, search, check, count) ",
+      url: "https://github.com/gagharutyunyan/todo-typescript",
+      backgroundImageUrl:
+        "https://i.postimg.cc/dtgkrvhM/53868378-2b51fc80-3fb3-11e9-9cee-0277efe8a927.png"
+    },
+    {
       title: "Very simple NodeJs app",
       description:
         "Simple app with adding new films used NodeJs, Express, Handlebars  ",
