@@ -85,11 +85,11 @@ const Header = ({ movePointer, mouseLeave }) => {
                   </li>
                   <li>
                     <span className="personal-info--title">Experience :</span>
-                    <span className="personal-info--value">2 year</span>
+                    <span className="personal-info--value">1.5 years</span>
                   </li>
                   <li>
                     <span className="personal-info--title">Career level :</span>
-                    <span className="personal-info--value">junior/middle</span>
+                    <span className="personal-info--value">junior</span>
                   </li>
                 </ul>
               </div>

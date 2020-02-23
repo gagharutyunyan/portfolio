@@ -38,7 +38,7 @@ const Item = () => {
     {
       title: "Responsive landing page",
       description: "Responsive page (used Vue), router, validation. ",
-      url: "https://gagharutyunyan.github.io/vue-landing/",
+      url: "https://gagharutyunyan.github.io/vue-landing-page/",
       backgroundImageUrl: "https://i.postimg.cc/tR2k6JKp/fewewfwef.png"
     },
     {
