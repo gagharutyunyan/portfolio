@@ -27,7 +27,7 @@ const AboutPage = ({ history }) => {
         <div className="about-me">
           <animated.div style={leftBlock} className="left-block">
             <img
-              src="https://i.postimg.cc/9FdVjWkw/87086750-2459198477519044-5855907541220851712-o.jpg"
+              src="https://avatars2.githubusercontent.com/u/42651068?s=460&v=4"
               alt="Gagik Harutyunyan"
             />
           </animated.div>
