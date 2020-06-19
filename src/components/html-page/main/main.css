@@ -1,0 +1,19 @@
+.my_works-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(230, 233, 233);
+  font-size: 5em;
+  margin-bottom: 0.4em;
+}
+
+@media (max-width: 1350px) {
+  .my_works-title {
+    font-size: 4.5em;
+  }
+}
+
+@media (max-width: 900px) {
+  .my_works-title {
+    font-size: 4em;
+  }
+}
