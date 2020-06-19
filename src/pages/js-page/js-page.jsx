@@ -4,17 +4,17 @@ import Typed from "react-typed";
 import Header from "../../components/js-page/header/header.jsx";
 import ErrorPage from "../../components/js-page/error-page/error-page.jsx";
 import Menu from "../../components/js-page/menu/menu.jsx";
-import PageChangebButton from "../../ui/page-changer-btn/page-changer-right-btn.jsx";
+import PageChangeButton from "../../ui/page-changer-btn/page-changer-right-btn.jsx";
 import "./js-page.css";
 
 const ReactPage = ({ data }) => (
   <>
     <Header data={data} />
     <main>
-      <PageChangebButton pageLink="/html-page" buttonStyle="user" />
+      <PageChangeButton pageLink="/html-page" buttonStyle="user" />
       <Menu data={data} />
       <div className="page">
-        <div className="colums">
+        <div className="columns">
           <Switch>
             {data.map(({ id, path, content }) => (
               <Route
