@@ -1,0 +1,10 @@
+.header {
+	display: flex;
+	background-color: #21252b;
+	height: 50px;
+}
+@media (max-width: 840px) {
+	.header {
+		display: none;
+	}
+}

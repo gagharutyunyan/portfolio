@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  padding: 0 0 0 40px;
+  box-sizing: border-box;
+  color: #ecdfdf;
+  font-size: 17px;
+}
+
+.logo h1 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+@media (max-width: 1350px) {
+  .logo {
+    width: 270px;
+  }
+}

@@ -1,0 +1,22 @@
+.welcome-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-width: 300px;
+  min-height: 100vh;
+  background: #000;
+}
+
+@media (max-width: 1300px) {
+  .welcome-wrapper {
+    background: linear-gradient(
+      45deg,
+      rgb(15, 15, 15),
+      rgb(39, 38, 38),
+      rgb(95, 91, 91),
+      rgb(117, 114, 114)
+    );
+  }
+}

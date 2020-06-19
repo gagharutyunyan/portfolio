@@ -1,0 +1,38 @@
+.icons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.skill-icon {
+  position: absolute;
+  background: aliceblue;
+  transform-style: preserve-3d;
+  animation: animate linear infinite;
+}
+
+.skill_icon-html {
+  width: 150px;
+  height: 150px;
+  left: 100px;
+  animation-duration: 5s;
+}
+
+.skill_icon-css {
+  width: 100px;
+  height: 100px;
+  left: 300px;
+  animation-duration: 10s;
+}
+
+.skill_icon-js {
+  width: 250px;
+  height: 250px;
+  left: 600px;
+  animation-duration: 15s;
+}
