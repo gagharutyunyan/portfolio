@@ -10,21 +10,20 @@ import { fetchReactPageData } from '../fake-api/fakeApi';
 
 const resource = fetchReactPageData();
 const PageStarter = () => {
-    const reactPageData = resource.reactPageData.read();
-    return (
-        <Switch>
-            <Route exact path="/" component={Welcome} />
-            <Route exact path="/html-page" component={HtmlPage} />
-            <Route exact path="/js-page/about-me" component={AboutPage} />
-            <Route
-                path="/js-page"
-                render={() => <JsPage data={reactPageData.jsPageBlanks} />}
-            />
-            <Route
-                render={() => <ErrorPage blockStyle=" html-error-block" />}
-            />
-        </Switch>
-    );
+  const reactPageData = resource.reactPageData.read();
+  const hi = reactPageData;
+  return (
+    <Switch>
+      <Route exact path="/" component={Welcome} />
+      <Route exact path="/html-page" component={HtmlPage} />
+      <Route exact path="/js-page/about-me" component={AboutPage} />
+      <Route
+        path="/js-page"
+        render={() => <JsPage data={reactPageData.jsPageBlanks} />}
+      />
+      <Route render={() => <ErrorPage blockStyle=" html-error-block" />} />
+    </Switch>
+  );
 };
 
 export default PageStarter;
